@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
     AudioSource m_AudioSource;
     public InputAction MoveAction;
 
-    private float walkSpeed = 1.0f;
-    private float turnSpeed = 20f;
+    public float walkSpeed = 1.0f;
+    public float turnSpeed = 20f;
 
     Rigidbody m_Rigidbody;
     Vector3 m_Movement;
