@@ -480,6 +480,84 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1001 &386166708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2059448636739970541, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1755027088}
+    - target: {fileID: 2059448636739970541, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1531264658}
+    - target: {fileID: 4076285129236943733, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_Name
+      value: Gargoyle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7032468
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7109459
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731846077758952776, guid: c05bb32d7472297469d1629891f06493,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c05bb32d7472297469d1629891f06493, type: 3}
 --- !u!1 &571408608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,8 +1124,6 @@ MonoBehaviour:
   displayImageDuration: 1
   player: {fileID: 1115256283}
   uiDocument: {fileID: 994124700}
-  exitAudio: {fileID: 124659298}
-  caughtAudio: {fileID: 2081270663}
 --- !u!65 &1531264659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2166,6 +2242,7 @@ SceneRoots:
   - {fileID: 638400360}
   - {fileID: 1248680338}
   - {fileID: 6307907065491135265}
+  - {fileID: 386166708}
   - {fileID: 2020582842029632564}
   - {fileID: 7468245382017878709}
   - {fileID: 6848324356694423991}
